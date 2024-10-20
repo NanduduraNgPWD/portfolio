@@ -1,0 +1,66 @@
+.section2{
+  height: 750px;
+  background-color: #1f1f1f;
+  overflow-x: hidden;
+}
+.section2-content{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5rem;
+  width: min(90%, 1440px);
+}
+.left{
+  display: grid;
+  grid-template-rows: .2fr .8fr 1fr;
+}
+.name{
+  font-size: 32px;
+}
+.middle-content{
+  font-size: 72px;
+  position: relative;
+  height: 30%;
+}
+.middle-content p:nth-child(1){
+  font-size: 8rem;
+  position: absolute;
+  z-index: 1;
+}
+.middle-content p:nth-child(2){
+font-size: 12rem;
+top: 70%;
+position: absolute;
+}
+.left-text p{
+  font-family: Montserrat;
+  color: #fbf3e4;
+  line-height: 2;
+  margin-top: 3rem;
+text-align: justify;
+}
+
+.right{
+display: grid;
+grid-template-columns: 2fr .1fr;
+place-items: center;
+}
+.img-container {
+  height: 500px;
+  width: 350px;
+  background-image: url('../Carousel/images/profile.jpg');
+  background-position: 50%;
+  background-size: 150%; /* Adjust this value to zoom out the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  border: #b91646 8px solid;
+}
+.right p{
+  font-size: 32px;
+  font-family: Bebas Neue;
+  font-weight: lighter;
+  color: #fbf3e4;
+}
+.letter-spacing{
+  letter-spacing:2px;
+}
+

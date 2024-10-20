@@ -1,0 +1,40 @@
+ /* header css*/
+ .navbar {
+  max-width: 1440px;
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: right; 
+  align-items: center;
+}
+
+.nav-list li {
+  margin: 0 40px; 
+}
+.nav-list li a:hover{
+  color:#e2e2e2;
+}
+.nav-list a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  transition: color 0.3s; /* Smooth color transition */
+  font-family: Montserrat;
+}
+.nav-list button{
+  padding: 20px 5px;
+  background:none;
+  border: #b91646 2px solid;
+  transition: .3s ease;
+}
+
+.nav-list button:hover{
+  padding: 20px 5px;
+  background: #b91646;
+color: #e2e2e2;
+cursor: pointer;
+}

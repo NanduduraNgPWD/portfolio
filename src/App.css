@@ -1,0 +1,78 @@
+
+.section1{
+  height: 700px;
+  background-color: #222222;
+}
+.heading{
+  position: relative;
+  height: 100%;
+}
+#heading1, #heading2{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+#heading2{
+font-family: Bebas Neue;
+color: #fbf3e4;
+font-size: 12rem;
+transform: translate(-50%, -60%); 
+}
+#heading1{
+  font-family: Tangerine;
+  color: #b91646;
+  font-size: 8rem;
+  margin-bottom: 3rem;
+  transform: translate(-50%, -140%); 
+  z-index: 1;
+}
+
+
+ /* header css*/
+.navbar {
+  padding: 10px 50px; 
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: right; 
+  align-items: center;
+}
+
+.nav-list li {
+  margin: 0 40px; 
+}
+
+.nav-list a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  transition: color 0.3s; /* Smooth color transition */
+  font-family: Montserrat;
+}
+.nav-list button{
+  padding: 20px 5px;
+  background:none;
+  border: #b91646 2px solid;
+}
+.nav-list a:hover{
+color: #434343;
+}
+
+/* itot */
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 10px;
+  background: #b91646;
+  transform-origin: 0%;
+}
+
+
+/* scroll animation */
